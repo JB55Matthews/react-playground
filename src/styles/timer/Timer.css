@@ -1,0 +1,63 @@
+.display{
+  font-size: 5rem;
+  color: #cfaaff;
+}
+  
+.start-button, .stop-button, .reset-button{
+font-size: 1rem;
+padding: 10px 20px;
+margin: 5px;
+min-width: 100px;
+border: none;
+border-radius: 1rem;
+cursor: pointer;
+background-color: #a259ff;
+color: white;
+}
+
+.start-button:hover, .stop-button:hover, .reset-button:hover{
+background-color: #6429b1;
+transition: 0.3s;
+}
+
+.start-button:active, .stop-button:active, .reset-button:active{
+transform: translateY(4px);
+transition: 0.1s;
+}
+
+.timer-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+.time-inputs {
+display: flex;
+gap: 0.5rem;
+font-size: 2.5rem;
+color: #cfaaff;
+align-items: center;
+justify-content: center;
+margin-bottom: 1rem;
+}
+
+.time-inputs input {
+width: 3.5ch;
+height: 3.2rem;
+background-color: transparent;
+border: none;
+border-bottom: 2px solid #a259ff;
+color: #cfaaff;
+font-size: 2.5rem;
+text-align: center;
+outline: none;
+caret-color: #a259ff;
+font-family: 'Segoe UI', sans-serif;
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.time-inputs input:focus {
+border-bottom: 2px solid #ffffff;
+box-shadow: 0 2px 10px #a259ff55;
+}

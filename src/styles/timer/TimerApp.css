@@ -1,0 +1,30 @@
+body {
+    overflow: hidden;
+  }
+  
+  .tab-switcher {
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #1b1b1f;
+    margin: 0 auto 2rem auto;
+  }
+    
+  .tab-switcher button {
+    background: transparent;
+    color: #aaa;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tab-switcher .active {
+    background-color: #a259ff;
+    color: white;
+    font-weight: bold;
+  }
