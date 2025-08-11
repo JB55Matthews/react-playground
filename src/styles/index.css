@@ -3,6 +3,7 @@ html {
   background-image: linear-gradient(to bottom right, rgb(7, 57, 99), hsl(0, 3%, 12%));
   background-attachment: fixed;
   overflow-y: scroll;
+  overflow-x: hidden
 }
 
 body {
@@ -12,4 +13,12 @@ body {
   justify-content: center;
   font-family: 'Segoe UI', sans-serif;
   /* height: 100vh; */
+}
+
+footer{
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  color: #c5e9e4;
+  margin: 64px auto 32px auto; 
 }

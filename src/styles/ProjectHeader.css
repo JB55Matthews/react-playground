@@ -1,0 +1,18 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.name {
+    font-size: 32px;
+    color: #80c6ee;
+}
+
+.desc{
+    font-size: 18px;
+    color: #c5e9e4;
+    
+}
+

@@ -1,1 +1,41 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 2rem auto;
+    max-width: 600px;
+}
 
+.title {
+    font-size: 70px;
+    color: #80c6ee;
+    margin: 12px 8px 0px 8px;
+    padding: 10px;
+}
+
+.name {
+    font-size: 24px;
+    color: #80c6ee;
+    margin: 12px;
+}
+
+.line-container {
+    display: flex;
+    margin-bottom: 24px;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+  
+  .line-container line {
+    stroke: rgb(90, 172, 226);
+    stroke-width: 8;
+    stroke-linecap: round;
+  }
+
+.body{
+    font-size: 20px;
+    color: #c5e9e4;
+    
+}
