@@ -20,6 +20,11 @@ function Header() {
           <p>Everything here are projects that would
             ideally be made in a day, so nothing is overly complicated; those are saved with their own dedicated pages. 
             Scroll through, try out what everything does, and have fun!</p>
+          <p>
+            Note that this is designed for a computer, not mobile, as a lot of the 
+            interactive components are made for mouse/keyboard. Some components work with mobile as I develop, however this
+            is not standard. Many component sizes overflow as well, but this is being worked on as well.
+          </p>
         </div>
       </div>
     )
